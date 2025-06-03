@@ -9,7 +9,7 @@ import { A11y, Pagination, Autoplay, EffectFade } from "swiper/modules";
 const Hero = () => {
     return ( 
         <main className="md:px-20 md:py-15 relative">
-            <div className="overlay absolute w-full top-0 h-full md:top-[10%] md:left-[5%] md:w-[90%] bg-linear-to-r h-[81%] from-slate-900/60 to-slate-800/70 z-10"></div>
+            <div className="overlay absolute w-full top-0 h-full md:top-[10%] md:left-[5%] md:w-[90%] bg-linear-to-r md:h-[81%] from-slate-900/60 to-slate-800/70 z-10"></div>
 
             <Swiper
                 modules={[Pagination, A11y, Autoplay, EffectFade]}
