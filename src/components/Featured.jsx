@@ -6,7 +6,7 @@ const Featured = () => {
     return ( 
         <main className="px-5 md:px-20 my-10">
             <div className="p-4">
-                <h2 className="font-bold text-3xl my-5">Featured Projects</h2>
+                <h2 className="font-bold text-2xl my-5">Featured Projects</h2>
 
                 <div className="projects grid grid-cols-1 md:grid-cols-4 gap-10">
                     <div className="project hover:scale-95 duration-500 transition-all shadow-md">

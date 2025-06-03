@@ -1,9 +1,9 @@
-import { FaBuilding, FaHome, FaRoad } from "react-icons/fa";
+import { FaBuilding, FaRoad, FaTractor } from "react-icons/fa";
 import { FaBridge } from "react-icons/fa6";
 
 const Service = () => {
     return ( 
-        <main className="px-5 md:px-20 my-10">
+        <main className="px-5 md:px-20 py-10 mt-10 bg-slate-50">
             <div className="p-4">
                 <h2 className="font-bold text-2xl my-5">Our Services</h2>
                 <div className="my-3">
@@ -14,7 +14,7 @@ const Service = () => {
 
                 <div className="projects grid grid-cols-1 my-5 md:grid-cols-4 gap-5">
                     <div className="project p-4 hover:scale-95 duration-500 transition-all border rounded-md border-yellow-700">
-                        <FaHome size={20} />
+                        <FaTractor size={20} />
                         <div className="text">
                             <h3 className="font-bold text-lg my-2">Quarries</h3>
                             <p className="text-yellow-800 my-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat, consequatur.</p>

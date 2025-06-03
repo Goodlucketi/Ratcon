@@ -1,3 +1,5 @@
+import AboutRatcon from "../components/AboutRatcon";
+import Contact from "../components/Contact";
 import Featured from "../components/Featured";
 import Footer from "../components/Footer";
 import Hero from "../components/Hero";
@@ -9,8 +11,10 @@ const Home = () => {
         <main>
             <Navbar />
             <Hero />
+            <AboutRatcon />
             <Featured />
             <Service />
+            <Contact />
             <Footer />
         </main>
      );
